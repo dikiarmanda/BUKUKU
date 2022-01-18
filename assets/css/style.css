@@ -1,0 +1,107 @@
+html {
+    height: 100%;
+}
+
+/* Cover */
+body.cover {
+    background-image: url(../img/bg_cover.png);
+    background-size: cover;
+}
+
+.person-left, .person-right {
+    opacity: 0;
+    transform: translate(-50px, 0);
+    transition: 1s;
+}
+
+.person-right {
+    transform: translate(50px, 0);
+}
+
+.person-left.person-show, .person-right.person-show {
+    opacity: 1;
+    transform: translate(0,0);
+} 
+/* End Cover */
+
+/* tambah buku */
+body#tambahBuku {
+    /* background-image: url(../img/bg_buku.png);
+    background-size: cover; */
+    background-color: #ffecae;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#tambahBuku .form-signin {
+    width: 100%;
+    max-width: 1000px;
+    padding: 15px;
+    margin: auto;
+}
+
+#tambahBuku input {
+    margin-bottom: 1rem;
+}
+/* End tambah buku */
+
+/* login dan signup */
+body.signin {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+body.signin .form-signin img {
+    width: 5rem;
+}
+
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input#loginEmail, .form-signin input#inputNama {
+    border-radius: .25rem .25rem 0 0; /* kiri-atas kanan-atas kanan-bawah kiri-bawah */
+}
+
+.form-signin input#loginPassword, .form-signin select#programStudi {
+    border-radius: 0 0 .25rem .25rem;
+}
+
+body.signin .form-signin input, .form-signin textarea {
+    margin-top: -1px;
+    margin-bottom: -1px;
+    border-radius: 0;
+}
+
+input[type="radio"] {
+    margin-top: .25rem !important;
+}
+/* End login dan signup */
+
+.sidebar .nav-link:hover {
+    background-color: grey;
+}
+
+.card-body-icon {
+    position: absolute;
+    z-index: 0;
+    top: 20px;
+    right: 10px;
+    opacity: 0.4;
+    font-size: 90px;
+}
