@@ -1,5 +1,5 @@
 # BUKUKU
-Tugas Ulangan Tengah Semester
+Tugas Ulangan Akhir Semester
 Pemrograman Berbasis Web
 <ul>
   <li>Mokhamad Diki Armanda (201080200001)</li>
