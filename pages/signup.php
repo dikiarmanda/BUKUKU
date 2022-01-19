@@ -40,7 +40,7 @@ if (isset($_POST["register"])) {
     <main class="form-signin">
         <form action="" method="post">
             <h1 class="text-start fw-bold">Create Account</h1>
-            <h6 class="mb-4 text-start">Already have an account? <a class="link-primary" href="login.html">Login</a></h6>
+            <h6 class="mb-4 text-start">Already have an account? <a class="link-primary" href="login.php">Login</a></h6>
             <div class="form-floating">
                 <input type="text" class="form-control" name="inputNama" id="inputNama" placeholder="name" required autocomplate="off">
                 <label for="inputNama">Nama Lengkap</label>
